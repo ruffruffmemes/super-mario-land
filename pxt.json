@@ -1,0 +1,52 @@
+{
+    "name": "Super mario land",
+    "description": "",
+    "dependencies": {
+        "device": "*",
+        "arcade-tile-util": "github:microsoft/arcade-tile-util#v1.2.0",
+        "Color Fading": "github:jwunderl/pxt-color#v0.2.3",
+        "animation": "*",
+        "arcade-character-animations": "github:microsoft/arcade-character-animations#v0.1.0",
+        "sprite-fx": "github:kohanmathers/makecodespritefx#v1.2.0",
+        "settings-blocks": "github:microsoft/pxt-settings-blocks#v1.0.0"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "assets.json",
+        "images.g.jres",
+        "images.g.ts",
+        "tilemap.g.jres",
+        "tilemap.g.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "4.1.27",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "blocksprj",
+    "palette": [
+        "#000000",
+        "#B5B5FF",
+        "#FF8484",
+        "#FFFFFF",
+        "#FF8484",
+        "#943939",
+        "#000000",
+        "#FFFFFF",
+        "#FFFFFF",
+        "#FFFFFF",
+        "#8E2EC4",
+        "#FFFF94",
+        "#AD5A42",
+        "#E5CDC4",
+        "#91463d",
+        "#000000"
+    ]
+}
